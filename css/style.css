@@ -191,6 +191,14 @@
     background-color: #f9f9f9;
 }
 
+.no-boba{
+    width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 
 .carousel {
     width: 1200px;
@@ -218,9 +226,6 @@
     background: none;
     border: none;
     transform: rotate(-45deg);
-    position: relative;
-    top: 100px;
-    left: 100px;
 }
 .carul2{
     border-radius: 100%;
@@ -238,18 +243,13 @@
     background: none;
     border: none;
     transform: rotate(140deg);
-    position: relative;
-    left: -100px;
-    top: -70px;
+    margin-top: 0px;
 }
   
 
 .blockirka{
     width: 100px;
     height: 100px;
-    position: relative;
-    top: 100px;
-    left: 360px;
 }
 
 
@@ -1007,7 +1007,7 @@ button{
     .main_kross{
         width: 250px;
         margin-bottom: 50px;
-        height: 320px;
+        height: 295px;
         display: flex;
         flex-direction: column;
         align-items: stretch;
@@ -1026,7 +1026,7 @@ button{
         flex-direction: column;
         align-items: stretch;
         margin-top: 15px;
-        width: 230px;
+        width: 220px;
         height: 170px;
         justify-content: space-around;
     }
@@ -1066,15 +1066,26 @@ button{
     .popular_kross{
         width: 340px;
         height: 340px;
-        padding: 5px;
+        padding: 55px;
         background: white;
         border-radius: 8px;
         margin-left: -20px;
     }
 
+
+    .no-boba{
+        width: 800px;
+    }
+    
+    .abobka{
+        height: 190px;
+    }
+    .popular_cont{
+        width: 800px;
+    }
+
+
   }
-
-
 
 
 
@@ -1392,13 +1403,12 @@ button{
     .box_select_firma{
         padding: 15px;
         background: white;
-    margin-left: -100px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     }
     .ya_uzkiy{
         width: 120px;
@@ -1419,5 +1429,15 @@ button{
     .header_a2{
         display: none;
     }
+
+
+    .no-boba{
+        width: 720px;
+    }
+    .carousel{
+        width: 700px;
+    }
+
+    
 
 }
